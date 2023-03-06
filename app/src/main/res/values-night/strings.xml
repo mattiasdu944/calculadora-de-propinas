@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="propina">Propina</string>
+    <string name="ingrese_importe">Ingrese el importe</string>
+    <string name="bienvenida">Bienvenido</string>
+</resources>

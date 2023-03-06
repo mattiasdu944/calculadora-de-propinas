@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margen_horizontal_actividad">16dp</dimen>
+    <dimen name="margin_vertical_activity">16dp</dimen>
+    <dimen name="elevation">8dp</dimen>
+    <dimen name="seekbar_heigth">40dp</dimen>
+</resources>

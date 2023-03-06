@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculadora De Propinas</string>
+    <string name="porcentaje">15%</string>
+    <string name="propina">Propina</string>
+    <string name="total">Total</string>
+    <string name="ingrese_importe">Ingrese el importe</string>
+    <string name="bienvenida">Bienvenido</string>
+</resources>

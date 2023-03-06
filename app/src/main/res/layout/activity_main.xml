@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center|end"
+    android:background="@color/white"
+    android:columnCount="2"
+    android:paddingLeft="@dimen/margen_horizontal_actividad"
+    android:paddingTop="@dimen/margin_vertical_activity"
+    android:paddingRight="@dimen/margen_horizontal_actividad"
+    android:paddingBottom="@dimen/margin_vertical_activity"
+    android:useDefaultMargins="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenida"
+        android:textColor="#3E3E3E" />
+
+    <EditText
+        android:id="@+id/importeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="6" />
+
+    <TextView
+        android:id="@+id/importeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/white"
+        android:elevation="@dimen/elevation"
+        android:hint="@string/ingrese_importe"
+        android:paddingVertical="@dimen/margin_vertical_activity"
+        android:paddingStart="@dimen/margen_horizontal_actividad"
+        android:paddingTop="@dimen/margin_vertical_activity"
+        android:paddingEnd="@dimen/margen_horizontal_actividad"
+        android:textColor="@color/black"
+        android:paddingBottom="@dimen/margin_vertical_activity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/porcentajeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|end"
+        android:text="@string/porcentaje"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"/>
+
+    <SeekBar
+        android:id="@+id/porcentajeSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/seekbar_heigth"
+        android:layout_gravity="fill_horizontal"
+        android:max="30"
+        android:progress="15"/>
+
+    <TextView
+        android:id="@+id/etiquetaPropinaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|end"
+        android:text="@string/propina"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:elevation="@dimen/elevation"
+        android:paddingVertical="@dimen/margin_vertical_activity"
+        android:paddingStart="@dimen/margen_horizontal_actividad"
+        android:paddingTop="@dimen/margin_vertical_activity"
+        android:paddingEnd="@dimen/margen_horizontal_actividad"
+        android:id="@+id/propinaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal|center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/etiquetaTotalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|end"
+        android:text="@string/total"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:elevation="@dimen/elevation"
+        android:paddingVertical="@dimen/margin_vertical_activity"
+        android:paddingStart="@dimen/margen_horizontal_actividad"
+        android:paddingTop="@dimen/margin_vertical_activity"
+        android:paddingEnd="@dimen/margen_horizontal_actividad"
+        android:id="@+id/totalTextView"
+        android:layout_gravity="fill_horizontal"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"/>
+
+</GridLayout>
