@@ -5,4 +5,6 @@
     <string name="total">Total</string>
     <string name="ingrese_importe">Ingrese el importe</string>
     <string name="bienvenida">Bienvenido</string>
+    <string name="ingrese_num_personas">Ingrese numero de personas</string>
+    <string name="cuota_total">Total cuota</string>
 </resources>
