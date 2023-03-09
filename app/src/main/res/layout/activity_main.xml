@@ -45,9 +45,10 @@
         android:paddingStart="@dimen/margen_horizontal_actividad"
         android:paddingTop="@dimen/margin_vertical_activity"
         android:paddingEnd="@dimen/margen_horizontal_actividad"
-        android:textColor="@color/black"
         android:paddingBottom="@dimen/margin_vertical_activity"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000"
+        android:textColorHint="#767676" />
 
 
     <EditText
@@ -76,24 +77,29 @@
         android:paddingEnd="@dimen/margen_horizontal_actividad"
         android:paddingBottom="@dimen/margin_vertical_activity"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:textColorHint="#767676" />
 
     <TextView
         android:id="@+id/porcentajeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|end"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
         android:text="@string/porcentaje"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black" />
 
     <SeekBar
         android:id="@+id/porcentajeSeekBar"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/seekbar_heigth"
+        android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
         android:max="30"
-        android:progress="15"/>
+        android:progress="15" />
 
     <TextView
         android:id="@+id/etiquetaPropinaTextView"

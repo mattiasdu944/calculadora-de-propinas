@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
             try {
                 importe = Double.parseDouble(s.toString()) / 100.0;
                 importeTextView.setText(formatMoneda.format( importe ));
-
+                calcular();
 
             }catch ( NumberFormatException nfe ){
                 importe = 0.0;
@@ -123,6 +123,8 @@ public class MainActivity extends AppCompatActivity {
             try {
                 numPersonas = Integer.parseInt(s.toString());
                 numPersonasTextView.setText(s.toString());
+                calcular();
+
             }catch ( NumberFormatException nfe ){
                 numPersonasTextView.setText("1");
             }
